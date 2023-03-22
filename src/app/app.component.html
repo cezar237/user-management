@@ -1,13 +1,59 @@
-<p>welcome</p>
-<div class="container">
-  <div class="jumbotron">
-    <h1>Welcome</h1>
-    <h2>Angular & Bootstrap Demo</h2>
-  </div>
-  <div class="panel panel-primary">
-    <div class="panel-heading">Status</div>
-    <div class="panel-body">
-      <h3>{{title}}</h3>
+<div class="container container-fluid">
+  <div class="jumbotron text-center app-container">
+    <h1>User Management</h1>
+    <h2>Welcome to the best app to manage your app </h2>
+    <div class="my-5">
+      <div class="row d-flex align-items-center my-5">
+        <div class="col-md-4 col-lg-6 d-flex">
+          <input class="form-control float-right" type="search" placeholder="search by name ..." name="search_bar" id="search_bar">
+        </div>
+        <div class="col-md-8 col-lg-6 d-flex justify-content-around">
+          <button class="btn btn-primary">
+            <i class="fa fa-filter mx-2"></i> <span>Filter</span>
+          </button>
+          <button class="btn btn-primary">
+            <i class="fa fa-apps mx-2"></i> <span>card</span>
+          </button>
+          <button class="btn btn-primary">
+            <i class="fa fa-list mx-2"></i> <span>List</span>
+          </button>
+          <button class="btn btn-primary">
+            <i class="fa fa-ellipsis-h mx-2"></i> <span>other</span>
+          </button>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center my-5">
+        <div class="card">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+          </div>
+          <div class="card-footer text-muted">
+            Footer
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center my-5">
+        <table class="table table-hover table-bordered table-inverse table-responsive">
+          <thead class="thead-default">
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Role</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">image_link</td>
+                <td>Tyson</td>
+                <td>Admin</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
