@@ -53,7 +53,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.js"]
           },
           "configurations": {
             "production": {
@@ -120,7 +120,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.js",
+            "node_modules/bootstrap/dist/js/bootstrap.esm.min.js",
+            "node_modules/bootstrap/dist/js/bootstrap.js.map"]
           }
         }
       }
