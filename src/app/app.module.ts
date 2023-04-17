@@ -8,6 +8,7 @@ import { UserListComponent } from './user/user-list/user-list.component';
 import { UserCartComponent } from './user/user-cart/user-cart.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ComposantComponent } from './composant/composant.component';
+import { UserListCardComponent } from './user/user-list-card/user-list-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ComposantComponent } from './composant/composant.component';
     UserComponent,
     UserListComponent,
     UserCartComponent,
-    ComposantComponent
+    ComposantComponent,
+    UserListCardComponent
   ],
   imports: [
     BrowserModule,
