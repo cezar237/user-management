@@ -1,12 +1,28 @@
-[  {
+ [{
+  "id": "tad",
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"7",
+   "role":"3",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"60000",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
+  "modification": "boolean",
+  "suppression": "boolean",
+  "création": "boolean"
+
+  }
+},
+{
+  "noms": "tad",
+   "image":"8",
+   "role":"8",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"50000",
+   "privilèges":{
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
@@ -15,13 +31,13 @@
 },
 {
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"87",
+   "role":"4",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"46200",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
@@ -30,13 +46,13 @@
 },
 {
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"7",
+   "role":"54",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"500000",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
@@ -45,13 +61,13 @@
 },
 {
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"87",
+   "role":"9",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"120000",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
@@ -60,13 +76,13 @@
 },
 {
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"9",
+   "role":"8",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"90000",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
@@ -75,13 +91,13 @@
 },
 {
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"7",
+   "role":"5",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"452200",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
@@ -90,13 +106,13 @@
 },
 {
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"7",
+   "role":"5",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"10/05/2023",
+   "fortune":"100000",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
@@ -105,32 +121,17 @@
 },
 {
   "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
+   "image":"4",
+   "role":"1",
+   "date_de_création":"10/05/2023",
+   "date_de_dernière_mis_à_jour":"5",
+   "fortune":"40000",
    "privilèges":{
-    "ecture": "boolean",
+    "lecture": "boolean",
   "modification": "boolean",
   "suppression": "boolean",
   "création": "boolean"
 
   }
-},
-{
-  "noms": "tadjuifouo",
-   "image":"",
-   "role":"",
-   "date_de_création":"",
-   "date_de_dernière_mis_à_jour":"",
-   "fortune":"",
-   "privilèges":{
-    "ecture": "boolean",
-  "modification": "boolean",
-  "suppression": "boolean",
-  "création": "boolean"
+}]
 
-  }
-}
-]
