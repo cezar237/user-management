@@ -74,5 +74,6 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
     __Résultat attendu:__ le tableau d'utilisateur qui s'affiche lorsqu'on clique sur le bouton qui permet l'affichage en liste (par défaut c'est ce tableau qui s'affiche en premier même quand on n'a pas encore effectué de clic), faire de même pour la disposition en carte.
 
     7. Quelle est la directive structurelle utilisée ?
+    __Réponse 7__ : ngIf
 
     Faire un commit avec pour message `affichage conditionnée en liste ou en carte`
