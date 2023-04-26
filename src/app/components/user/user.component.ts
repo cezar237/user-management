@@ -57,7 +57,37 @@ export class UserComponent implements OnInit {
         modification: false,
         suppression: false
       }
-    }
+    },
+    {
+      id: "sfq+hfjhkhg+lgh4il45",
+      nom: "Noa",
+      image: "https://i.pravatar.cc/150?img=1",
+      role: 'admin',
+      date_creation: new Date(),
+      derniere_maj: new Date(),
+      fortune: 2781000,
+      privileges: {
+        creation: true,
+        lecture: true,
+        modification: false,
+        suppression: true
+      }
+    },
+    {
+      id: "sfq54+hfjhkhggh4il125",
+      nom: "Anaba",
+      image: "https://i.pravatar.cc/150?img=6",
+      role: 'secretaire',
+      date_creation: new Date(),
+      derniere_maj: new Date(),
+      fortune: 2745000,
+      privileges: {
+        creation: false,
+        lecture: true,
+        modification: true,
+        suppression: true
+      }
+    },
   ]
 
   constructor() { }
