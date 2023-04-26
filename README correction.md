@@ -33,20 +33,11 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
 * Dans le composant `user-list`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la  une carte d'utilisateur  et importer `user-list-card` dans `user-list` selon les recommandations. 
 
     3. a. Quelle est la commande cli utilisée ?
-    * __réponse 3a__ : ng g c components/user/user-list/user-list-card
+    * __réponse 3__ : ng g c components/user/user-list/user-list-card
     
     __Résultat attendu:__ même interface qu'au départ
 
     Faire un commit avec pour message `composant user-list-card créé`
-
-* Dans le composant `user-list`, créer un composant `user-list-item` grâce à angular cli dans ce composant la structure sera d'afficher une ligne du tableau d'utilisateur avec au moins une carte   et importer `user-list-item` dans `user-list` selon les recommandations. 
-
-    3. b. Quelle est la commande cli utilisée ?
-    * __réponse 3b__ : ng g c components/user/user-list/user-list-item
-    
-    __Résultat attendu:__ même interface qu'au départ
-
-    Faire un commit avec pour message `composant user-list-item créé`
 
 * créer un modèle `user.models.ts` comme étant une interface suivant les recommandations utilisateurs  et faire un commit avec pour message `modèle user créé`
 
@@ -56,14 +47,21 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
 * créer des données fictives pour la liste des utilisateurs (avec au moins 5 utilisateurs) dans le composant `user` et propager ses données à travers tous les composants, en utilisant :
 
     * l'interface créé dans `user.models.ts`
-    * la directive structurelle approprié
+    * les directives structurelles appropriés
     * le property binding
+    * l'interpolation
 
     
     __Résultat attendu:__ même interface qu'au départ avec des lignes ajoutés dans le tableau et plusieurs cartes qui s'affichent pour les différents utilisateurs
 
-    5. Quelle directive structurelle avez vous utilisé ?
+    5. Quelles sont les directives structurelles que vous avez utilisé ?
+    __Réponse 5__ : la directive ngFor et ngIf
+
+
     6. C'est quoi le property binding ?
+    __Réponse 6__ : Le property binding en Angular est une technique qui permet de lier dynamiquement des propriétés HTML aux propriétés d'un composant ou d'une expression JavaScript. Cette liaison dynamique permet de mettre à jour automatiquement les propriétés HTML en fonction des changements de propriétés du composant ou des expressions JavaScript.
+
+    Le property binding est généralement utilisé pour lier des propriétés HTML telles que le contenu d'un élément, la valeur d'un champ de saisie, l'attribut d'un élément, etc. aux propriétés d'un composant Angular ou à une expression JavaScript.
 
     Faire un commit avec pour message `affichage de la liste des utilisateurs en carte et en liste sans condition préalable`
 
