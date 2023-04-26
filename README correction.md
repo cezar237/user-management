@@ -24,15 +24,16 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
 * Dans le composant `user`, créer un composant `user-list` grâce à angular cli dans ce composant la structure sera d'afficher la liste d'utilisateurs en liste/tableau  et importer `user-list` dans `user` selon les recommandations.
     
     2. Quelle est la commande cli utilisée ?
-    * __réponse 1__ : ng g c components/user/user-list
+    * __réponse 2__ : ng g c components/user/user-list
 
     __Résultat attendu:__ même interface qu'au départ
 
     Faire un commit avec pour message `composant user-list créé`
 
-* Dans le composant `user`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la liste d'utilisateurs en carte avec au moins une carte   et importer `user-list-card` dans `user` selon les recommandations. 
+* Dans le composant `user-list`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la liste d'utilisateurs en carte avec au moins une carte   et importer `user-list-card` dans `user-list` selon les recommandations. 
 
     3. Quelle est la commande cli utilisée ?
+    * __réponse 3__ : ng g c components/user/user-list/user-list-card
     
     __Résultat attendu:__ même interface qu'au départ
 
