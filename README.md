@@ -1,31 +1,3 @@
-# UserManagement
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
 ## Instructions
 
 __NB :__ Le but de cet exercice est de mesurer les capacités du candidat par rapport à la compréhension du projet et des notions de base d'angular. 
@@ -56,9 +28,9 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
 
     Faire un commit avec pour message `composant user-list créé`
 
-* Dans le composant `user-list`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la liste d'utilisateurs en carte avec au moins une carte   et importer `user-list-card` dans `user-list` selon les recommandations. 
+* Dans le composant `user-list`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la  une carte d'utilisateur  et importer `user-list-card` dans `user-list` selon les recommandations. 
 
-    3. Quelle est la commande cli utilisée ?
+    3. a. Quelle est la commande cli utilisée ?
     
     __Résultat attendu:__ même interface qu'au départ
 
@@ -66,18 +38,21 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
 
 * créer un modèle `user.models.ts` comme étant une interface suivant les recommandations utilisateurs  et faire un commit avec pour message `modèle user créé`
 
-    4. A quoi sert de créer un moddèle ?
+    4. A quoi sert de créer un modèle ?
 
 * créer des données fictives pour la liste des utilisateurs (avec au moins 5 utilisateurs) dans le composant `user` et propager ses données à travers tous les composants, en utilisant :
 
     * l'interface créé dans `user.models.ts`
-    * la directive structurelle approprié
+    * les directives structurelles appropriés
     * le property binding
+    * l'interpolation
 
     
     __Résultat attendu:__ même interface qu'au départ avec des lignes ajoutés dans le tableau et plusieurs cartes qui s'affichent pour les différents utilisateurs
 
-    5. Quelle directive structurelle avez vous utilisé ?
+    5. Quelles sont les directives structurelles que vous avez utilisé ?
+
+
     6. C'est quoi le property binding ?
 
     Faire un commit avec pour message `affichage de la liste des utilisateurs en carte et en liste sans condition préalable`
@@ -88,7 +63,7 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
     * property binding
 
     
-    __Résultat attendu:__ le tableau d'utilisateur qui s'affiche lorsqu'on clique sur le bouton qui permet l'affichage en liste (par défaut c'est ce qui s'affiche en premier même quand on n'a pas encore effectué de clic), faire de même pour la disposition en carte.
+    __Résultat attendu:__ le tableau d'utilisateur qui s'affiche lorsqu'on clique sur le bouton qui permet l'affichage en liste (par défaut c'est ce tableau qui s'affiche en premier même quand on n'a pas encore effectué de clic), faire de même pour la disposition en carte.
 
     7. Quelle est la directive structurelle utilisée ?
 
