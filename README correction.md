@@ -30,18 +30,28 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
 
     Faire un commit avec pour message `composant user-list créé`
 
-* Dans le composant `user-list`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la liste d'utilisateurs en carte avec au moins une carte   et importer `user-list-card` dans `user-list` selon les recommandations. 
+* Dans le composant `user-list`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la  une carte d'utilisateur  et importer `user-list-card` dans `user-list` selon les recommandations. 
 
-    3. Quelle est la commande cli utilisée ?
-    * __réponse 3__ : ng g c components/user/user-list/user-list-card
+    3. a. Quelle est la commande cli utilisée ?
+    * __réponse 3a__ : ng g c components/user/user-list/user-list-card
     
     __Résultat attendu:__ même interface qu'au départ
 
     Faire un commit avec pour message `composant user-list-card créé`
 
+* Dans le composant `user-list`, créer un composant `user-list-item` grâce à angular cli dans ce composant la structure sera d'afficher une ligne du tableau d'utilisateur avec au moins une carte   et importer `user-list-item` dans `user-list` selon les recommandations. 
+
+    3. b. Quelle est la commande cli utilisée ?
+    * __réponse 3b__ : ng g c components/user/user-list/user-list-item
+    
+    __Résultat attendu:__ même interface qu'au départ
+
+    Faire un commit avec pour message `composant user-list-item créé`
+
 * créer un modèle `user.models.ts` comme étant une interface suivant les recommandations utilisateurs  et faire un commit avec pour message `modèle user créé`
 
-    4. A quoi sert de créer un moddèle ?
+    4. A quoi sert de créer un modèle ?
+    * __réponse 4__ : la création de modèles dans Angular permet d'améliorer la qualité, la cohérence et la réutilisabilité du code, ainsi que de faciliter la maintenance et le développement collaboratif.
 
 * créer des données fictives pour la liste des utilisateurs (avec au moins 5 utilisateurs) dans le composant `user` et propager ses données à travers tous les composants, en utilisant :
 
