@@ -1,16 +1,16 @@
 export interface User{
-  id?:string;
- nom?:string;
-image?:string;
- role?: string; //(admin, sécrétaire, client) en readonly
-dateCréation?:Date;
-dateDernièreMisJour?:Date;
-fortune?: number;
-privilèges?:{
-  lecture?: boolean;
-modification?: boolean;
-suppression?: boolean;
-création?: boolean
+  id?:string,
+ nom?:string,
+image?:string,
+ role?: string, //(admin, sécrétaire, client) en readonly
+dateCreation?:string,
+dateDerniereMisJour?:string,
+fortune?: number,
+privileges?:{
+  lecture?: boolean,
+modification?: boolean,
+suppression?: boolean,
+creation?: boolean
 }
 
 }
