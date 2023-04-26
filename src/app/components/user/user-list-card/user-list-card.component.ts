@@ -1,4 +1,4 @@
-import { Component,Input,OnInit } from '@angular/core';
+import { Component,EventEmitter,Input,OnInit, Output } from '@angular/core';
 import { User } from 'src/app/class/user.models';
 
 @Component({
@@ -7,7 +7,8 @@ import { User } from 'src/app/class/user.models';
   styleUrls: ['./user-list-card.component.css']
 })
 export class UserListCardComponent implements OnInit {
-  @Input() user!:User[];
+  @Input() users!:User;
+  @Output() type=new EventEmitter<boolean>()
   constructor() { }
 
   ngOnInit(): void {
