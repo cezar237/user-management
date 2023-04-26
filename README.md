@@ -56,7 +56,7 @@ S'il a un problème d'incompréhension, il pourra chercher à contacter le plus 
 
     Faire un commit avec pour message `composant user-list créé`
 
-* Dans le composant `user`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la liste d'utilisateurs en carte avec au moins une carte   et importer `user-list-card` dans `user` selon les recommandations. 
+* Dans le composant `user-list`, créer un composant `user-list-card` grâce à angular cli dans ce composant la structure sera d'afficher la liste d'utilisateurs en carte avec au moins une carte   et importer `user-list-card` dans `user-list` selon les recommandations. 
 
     3. Quelle est la commande cli utilisée ?
     
