@@ -13,10 +13,10 @@
         <button class="col btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Filter user">
           <i class="fa fa-filter mx-2"></i>
         </button>
-        <button class="col btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="display user in card">
+        <button (click)="display='card'" class="col btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="display user in card">
           <i class="fa fa-th mx-2"></i>
         </button>
-        <button class="col btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="display user in list">
+        <button (click)="display='list'" class="col btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="display user in list">
           <i class="fa fa-list mx-2"></i>
         </button>
         <button class="col btn btn-primary mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="other action">
@@ -25,7 +25,7 @@
       </div>
     </div>
   </div>
-  <app-user-list [users]="users"></app-user-list>
+  <app-user-list [users]="users" [show]="display"></app-user-list>
   <ngb-pagination size="lg" class="d-flex justify-content-center" [collectionSize]="70" [(page)]="page" aria-label="Default pagination"></ngb-pagination>
   <div class="row d-flex align-items-center justify-content-center my-5">
     <p> <button class="btn btn-success"> <i class="fa fa-floppy-o" aria-hidden="true"></i> Save </button> </p>

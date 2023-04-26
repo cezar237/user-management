@@ -8,6 +8,8 @@ import { User } from 'src/app/models/user.model';
 })
 export class UserListComponent implements OnInit {
 
+  @Input() show!: 'list'|'card'
+
   @Input() users!: User[]
 
   constructor() { }

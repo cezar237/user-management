@@ -10,6 +10,8 @@ export class UserComponent implements OnInit {
 
   page = 4
 
+  display: 'list'|'card'='list'
+
   users: User []=[
     {
       id: "sfq54+hfjhkhg+lgh4il45",
