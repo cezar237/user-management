@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { UserContainerComponent } from './components/user-container/user-container.component';
 import { UserListComponent } from './components/user-container/user-list/user-list.component';
+import { UserListCardComponent } from './components/user-container/user-list/user-list-card/user-list-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserContainerComponent,
-    UserListComponent
+    UserListComponent,
+    UserListCardComponent
   ],
   imports: [
     BrowserModule,
