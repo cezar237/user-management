@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { UserContainerComponent } from './components/user-container/user-container.component';
+import { UserListComponent } from './components/user-container/user-list/user-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserContainerComponent
+    UserContainerComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
